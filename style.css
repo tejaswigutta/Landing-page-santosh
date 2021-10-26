@@ -289,9 +289,9 @@ input::placeholder {
     padding: 50px 98px;
     display: flex;
     justify-content: space-evenly;
-  }
-  
-  .about-careerlabs-img {
+}
+
+.about-careerlabs-img {
     background-image: url(./Assets/about-careerlabs-web.png);
     background-position: center;
     background-size: contain;
@@ -299,37 +299,37 @@ input::placeholder {
     min-height: 360px;
     width: 604px;
     /* border: 1px solid red; */
-  }
-  
-  .about-careerlabs-text {
+}
+
+.about-careerlabs-text {
     width: 592px;
     /* border: 1px solid green; */
     padding-top: 20px;
-  }
-  
-  .about-careerlabs-text1 {
+}
+
+.about-careerlabs-text1 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 39px;
     color: #052A4E;
-  }
-  
-  .about-careerlabs-text2 {
+}
+
+.about-careerlabs-text2 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 180%;
     color: #413F4E;
-  }
-  
-  #form-1 {
+}
+
+#form-1 {
     background-color: #EAEAFF;
-  }
-  
-  .form-text1 {
+}
+
+.form-text1 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -337,41 +337,41 @@ input::placeholder {
     line-height: 180%;
     text-align: center;
     color: #322C49;
-  }
-  
-  .check-box-div {
+}
+
+.check-box-div {
     display: flex;
     margin-bottom: 20px;
-  }
-  
-  #checkbox {
+}
+
+#checkbox {
     margin-right: 10px;
     margin-bottom: 0px;
     height: 16px;
     width: 16px;
-  }
-  
-  #checkbox-text {
+}
+
+#checkbox-text {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 180%;
     color: #052A4E;
-  }
-  
-  #footer {
+}
+
+#footer {
     height: 80px;
     background: #001B78;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  #footer p {
+}
+
+#footer p {
     color: #ffffff;
-  }
-  
+}
+
 
 
 
@@ -414,10 +414,11 @@ input::placeholder {
 
     .banner {
         background-image: url(./Assets/banner-mobile.png);
-        height: 24vh;
-        background-size: cover;
+        height: 30vh;
+        background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
+        border: 2px solid red;
     }
 
     .why-text-1 {
@@ -537,17 +538,17 @@ input::placeholder {
         line-height: 180%;
     }
 
-    .achievements{
+    .achievements {
         background-image: url(./Assets/achievements-mobile.png);
     }
 
     .about-careerlabs {
         padding: 0px 16px;
         display: block;
-    
-      }
-    
-      .about-careerlabs-img {
+
+    }
+
+    .about-careerlabs-img {
         background-image: url(./Assets/about-careerlabs-mobile.png);
         background-position: center;
         background-size: contain;
@@ -555,41 +556,41 @@ input::placeholder {
         /* min-height: 360px; */
         width: 100%;
         /* border: 1px solid red; */
-      }
-    
-      .about-careerlabs-text {
+    }
+
+    .about-careerlabs-text {
         width: 100%;
         /* border: 1px solid green; */
         padding-top: 0px;
-      }
-    
-      .about-careerlabs-text1 {
+    }
+
+    .about-careerlabs-text1 {
         font-family: Montserrat;
         font-style: normal;
         font-weight: 600;
         font-size: 32px;
         line-height: 39px;
         color: #052A4E;
-      }
-    
-      .about-careerlabs-text2 {
+    }
+
+    .about-careerlabs-text2 {
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
         line-height: 180%;
         color: #413F4E;
-      }
-    
-      #checkbox {
+    }
+
+    #checkbox {
         height: 30px;
         width: 30px;
-      }
-    
-      #footer {
+    }
+
+    #footer {
         height: 56px;
-      }
-    
+    }
+
 
 
 }
