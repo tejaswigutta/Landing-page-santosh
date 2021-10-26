@@ -1,0 +1,595 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.byjus-logo {
+    text-align: center;
+}
+
+.byjus-logo img {
+    width: 190.28px;
+    height: 70.48px;
+}
+
+.banner {
+    background-image: url(./Assets/banner-web.png);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+
+.form {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #E8E8FF;
+}
+
+.form-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #052a4e;
+    text-align: center;
+}
+
+form {
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 20px;
+}
+
+form input {
+    /* width: 490px; */
+    width: 47%;
+    height: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    color: #052a4e;
+    border-radius: 4px;
+    /* border: 1px solid #bbbbbb; */
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #052a4e;
+}
+
+.form-button {
+    /* padding-left:720px; */
+    /* border: 2px solid red; */
+    /* width:1140px; */
+    text-align: center;
+    /* width: 248px;
+    height: 56px; */
+}
+
+.form-button button {
+    width: 248px;
+    height: 56px;
+    background: linear-gradient(84.05deg, #0d63f1 2.91%, #1791ed 103.25%);
+    border-radius: 53px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #ffffff;
+    border: none;
+}
+
+#form-1 {
+    background-color: #EAEAFF;
+}
+
+.form-text1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #322C49;
+}
+
+.check-box-div {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#checkbox {
+    margin-right: 10px;
+    margin-bottom: 0px;
+    height: 16px;
+    width: 16px;
+}
+
+#checkbox-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    color: #052A4E;
+}
+
+.why-text-1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #052A4E;
+    text-align: center;
+}
+
+.why-text-2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #413F4E;
+}
+
+.why-imgs {
+    padding-left: 53px;
+    padding-right: 53px;
+    margin-top: 20px;
+}
+
+.why-imgs-web {
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.why-imgs-mobile {
+    display: none;
+}
+
+.why-imgs-web-1 {
+    text-align: center;
+    margin-right: 87px;
+    margin-bottom: 30px;
+}
+
+#img-web-3 {
+    margin-right: 0px;
+}
+
+#img-web-6 {
+    margin-right: 0px;
+}
+
+.help-from-mentor {
+    background: #5644BA;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+}
+
+.help-from-mentor-text {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.help-from-mentor-krithika {
+    background-image: url(./Assets/yellow-bg.png);
+    background-size: contain;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-evenly;
+}
+
+.help-from-mentor-krithika-1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    /* border: 2px solid red; */
+    /* justify-content: center;
+    align-items: center; */
+    vertical-align: middle;
+    padding-top: 10%;
+}
+
+.krithika {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    color: #1e135e;
+}
+
+.co-founder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #1e135e;
+    /* text-align: center; */
+}
+
+.gmat {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1E135E;
+}
+
+.alumnus {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1E135E;
+}
+
+.help-from-mentor-krithika-2 {
+    background-image: url(./Assets/krithika-small-web.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 298.88px;
+    height: 325.18px;
+}
+
+.about-krithika {
+    background-color: #ffffff;
+    position: relative;
+    color: #322c49;
+    /* width: 850px; */
+    width: 63%;
+    height: 600px;
+    padding: 48px;
+    margin-left: 202px;
+    /* margin-right: 206px; */
+    margin-top: -20px;
+    border-radius: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+}
+
+.achievements {
+    background-image: url(./Assets/achievements-web.png);
+    background-size: contain;
+    min-height: 891px;
+    background-repeat: no-repeat;
+}
+
+.about-careerlabs {
+    padding: 50px 98px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .about-careerlabs-img {
+    background-image: url(./Assets/about-careerlabs-web.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 360px;
+    width: 604px;
+    /* border: 1px solid red; */
+  }
+  
+  .about-careerlabs-text {
+    width: 592px;
+    /* border: 1px solid green; */
+    padding-top: 20px;
+  }
+  
+  .about-careerlabs-text1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #052A4E;
+  }
+  
+  .about-careerlabs-text2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #413F4E;
+  }
+  
+  #form-1 {
+    background-color: #EAEAFF;
+  }
+  
+  .form-text1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #322C49;
+  }
+  
+  .check-box-div {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  #checkbox {
+    margin-right: 10px;
+    margin-bottom: 0px;
+    height: 16px;
+    width: 16px;
+  }
+  
+  #checkbox-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    color: #052A4E;
+  }
+  
+  #footer {
+    height: 80px;
+    background: #001B78;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #footer p {
+    color: #ffffff;
+  }
+  
+
+
+
+@media (max-width: 576px) {
+
+    .byjus-logo img {
+        width: 108.31px;
+        height: 32px;
+    }
+
+    .banner-mobile {
+        display: block;
+    }
+
+    .banner-web {
+        display: none;
+    }
+
+    form {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    form input {
+        /* width: 20.5rem; */
+        width: 99%;
+        height: 48px;
+    }
+
+    .form-button button {
+        width: 180px;
+        height: 48px;
+        font-size: 14px;
+    }
+
+    #checkbox {
+        height: 30px;
+        width: 30px;
+    }
+
+    .banner {
+        background-image: url(./Assets/banner-mobile.png);
+        height: 24vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .why-text-1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        color: #052A4E;
+        margin-left: 37px;
+        margin-right: 37px;
+    }
+
+    .why-text-2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 180%;
+        text-align: center;
+        color: #413F4E;
+        margin-left: 23px;
+        margin-right: 23px;
+    }
+
+    .why-imgs-web {
+        display: none;
+    }
+
+    .why-imgs-mobile {
+        display: block;
+    }
+
+    .why-imgs {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 20px;
+    }
+
+    .why-imgs-mobile-1 {
+        border: 1px solid red;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .help-from-mentor-text {
+        font-size: 18px;
+    }
+
+    .help-from-mentor-krithika {
+        background-image: url(./Assets/yellow-bg-mobile.png);
+        background-size: contain;
+        margin-left: 16px;
+        margin-right: 16px;
+        display: flex;
+        padding-left: 12px;
+        padding-right: 12px;
+        justify-content: space-between;
+    }
+
+    .krithika {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .co-founder {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .gmat {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #1E135E;
+    }
+
+    .alumnus {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #1E135E;
+    }
+
+    .help-from-mentor-krithika-2 {
+        /* background-image: url(./Assets/krithika-small-mobile.png); */
+        width: 127px;
+        height: 138px;
+    }
+
+    .help-from-mentor {
+        padding-top: 15px;
+    }
+
+    .help-from-mentor-text {
+        margin-bottom: 10px;
+    }
+
+    .about-krithika {
+        /* width: 17.5rem; */
+        /* width:1000px; */
+        width: 80%;
+        height: 900px;
+        padding: 12px;
+        margin-left: 27px;
+        /* margin-right: 206px; */
+        margin-top: -20px;
+        border-radius: 12px;
+        font-size: 14px;
+        line-height: 180%;
+    }
+
+    .achievements{
+        background-image: url(./Assets/achievements-mobile.png);
+    }
+
+    .about-careerlabs {
+        padding: 0px 16px;
+        display: block;
+    
+      }
+    
+      .about-careerlabs-img {
+        background-image: url(./Assets/about-careerlabs-mobile.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        /* min-height: 360px; */
+        width: 100%;
+        /* border: 1px solid red; */
+      }
+    
+      .about-careerlabs-text {
+        width: 100%;
+        /* border: 1px solid green; */
+        padding-top: 0px;
+      }
+    
+      .about-careerlabs-text1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        color: #052A4E;
+      }
+    
+      .about-careerlabs-text2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 180%;
+        color: #413F4E;
+      }
+    
+      #checkbox {
+        height: 30px;
+        width: 30px;
+      }
+    
+      #footer {
+        height: 56px;
+      }
+    
+
+
+}
