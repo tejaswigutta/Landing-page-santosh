@@ -418,7 +418,7 @@ input::placeholder {
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
 
     .why-text-1 {
@@ -460,7 +460,7 @@ input::placeholder {
     }
 
     .why-imgs-mobile-1 {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         text-align: center;
         margin-bottom: 20px;
     }
@@ -562,8 +562,8 @@ input::placeholder {
         width: 100%;
         /* border: 1px solid green; */
         padding-top: 0px;
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 12px;
+        padding-right: 8px;
     }
 
     .about-careerlabs-text1 {
