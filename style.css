@@ -543,7 +543,7 @@ input::placeholder {
     }
 
     .about-careerlabs {
-        padding: 0px 16px;
+        padding: 0px 0px;
         display: block;
 
     }
@@ -562,6 +562,8 @@ input::placeholder {
         width: 100%;
         /* border: 1px solid green; */
         padding-top: 0px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .about-careerlabs-text1 {
@@ -580,6 +582,7 @@ input::placeholder {
         font-size: 18px;
         line-height: 180%;
         color: #413F4E;
+        padding-right: 16px;
     }
 
     #checkbox {
